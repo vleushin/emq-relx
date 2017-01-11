@@ -9,7 +9,7 @@ DEPS = emqttd emq_dashboard emq_recon emq_reloader emq_stomp emq_plugin_template
 	   emq_sn emq_coap
 
 # emq deps
-dep_emqttd        = git https://github.com/emqtt/emqttd emq20
+dep_emqttd        = git https://github.com/emqtt/emqttd proxy-protocol
 dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard emq20
 dep_emq_recon     = git https://github.com/emqtt/emq-recon emq20
 dep_emq_reloader  = git https://github.com/emqtt/emq-reloader emq20
