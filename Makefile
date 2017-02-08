@@ -9,32 +9,32 @@ DEPS = emqttd emq_dashboard emq_recon emq_reloader emq_stomp emq_plugin_template
 	   emq_sn emq_coap
 
 # emq deps
-dep_emqttd        = git https://github.com/emqtt/emqttd master
-dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard master
-dep_emq_recon     = git https://github.com/emqtt/emq-recon master
-dep_emq_reloader  = git https://github.com/emqtt/emq-reloader master
-dep_emq_stomp     = git https://github.com/emqtt/emq-stomp master
+dep_emqttd        = git https://github.com/emqtt/emqttd v2.0.7
+dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard v2.0.7
+dep_emq_recon     = git https://github.com/emqtt/emq-recon v2.0.7
+dep_emq_reloader  = git https://github.com/emqtt/emq-reloader v2.0.7
+dep_emq_stomp     = git https://github.com/emqtt/emq-stomp v2.0.7
 
 # emq modules
-dep_emq_mod_presence     = git https://github.com/emqtt/emq-mod-presence master
-dep_emq_mod_retainer     = git https://github.com/emqtt/emq-mod-retainer master
-dep_emq_mod_rewrite      = git https://github.com/emqtt/emq-mod-rewrite master
-dep_emq_mod_subscription = git https://github.com/emqtt/emq-mod-subscription master
+dep_emq_mod_presence     = git https://github.com/vleushin/emq-mod-presence v2.0.7-kafka-protobuf
+dep_emq_mod_retainer     = git https://github.com/emqtt/emq-mod-retainer v2.0.7
+dep_emq_mod_rewrite      = git https://github.com/emqtt/emq-mod-rewrite v2.0.7
+dep_emq_mod_subscription = git https://github.com/emqtt/emq-mod-subscription v2.0.7
 
 # emq auth/acl plugins
-dep_emq_auth_clientid   = git https://github.com/emqtt/emq-auth-clientid master
-dep_emq_auth_username   = git https://github.com/emqtt/emq-auth-username master
-dep_emq_auth_ldap       = git https://github.com/emqtt/emq-auth-ldap master
-dep_emq_auth_http       = git https://github.com/emqtt/emq-auth-http master
-dep_emq_auth_mysql      = git https://github.com/emqtt/emq-auth-mysql master
-dep_emq_auth_pgsql      = git https://github.com/emqtt/emq-auth-pgsql master
-dep_emq_auth_redis      = git https://github.com/emqtt/emq-auth-redis master
-dep_emq_auth_mongo      = git https://github.com/emqtt/emq-auth-mongo master
-dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template master
+dep_emq_auth_clientid   = git https://github.com/emqtt/emq-auth-clientid v2.0.7
+dep_emq_auth_username   = git https://github.com/emqtt/emq-auth-username v2.0.7
+dep_emq_auth_ldap       = git https://github.com/emqtt/emq-auth-ldap v2.0.7
+dep_emq_auth_http       = git https://github.com/emqtt/emq-auth-http v2.0.7
+dep_emq_auth_mysql      = git https://github.com/vleushin/emq-auth-mysql v2.0.7-clientid-check
+dep_emq_auth_pgsql      = git https://github.com/emqtt/emq-auth-pgsql v2.0.7
+dep_emq_auth_redis      = git https://github.com/emqtt/emq-auth-redis v2.0.7
+dep_emq_auth_mongo      = git https://github.com/emqtt/emq-auth-mongo v2.0.7
+dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template v2.0.7
 
 # mqtt-sn and coap
-dep_emq_sn 	= git https://github.com/emqtt/emq-sn master
-dep_emq_coap = git https://github.com/emqtt/emq-coap master
+dep_emq_sn 	= git https://github.com/emqtt/emq-sn v0.2.7
+dep_emq_coap = git https://github.com/emqtt/emq-coap v0.2.7
 
 # COVER = true
 
