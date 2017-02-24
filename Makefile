@@ -9,7 +9,7 @@ DEPS = emqttd emq_dashboard emq_recon emq_reloader emq_stomp emq_plugin_template
 	   emq_sn emq_coap
 
 # emq deps
-dep_emqttd        = git https://github.com/emqtt/emqttd v2.0.7
+dep_emqttd        = git https://github.com/vleushin/emqttd v2.0.7-reload-plugins
 dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard v2.0.7
 dep_emq_recon     = git https://github.com/emqtt/emq-recon v2.0.7
 dep_emq_reloader  = git https://github.com/emqtt/emq-reloader v2.0.7
