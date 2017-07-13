@@ -13,35 +13,35 @@ DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
         emq_lua_hook emq_elixir_plugin
 
 # emq deps
-dep_emqttd        = git https://github.com/emqtt/emqttd master
-dep_emq_modules   = git https://github.com/emqtt/emq-modules master
-dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard master
-dep_emq_retainer  = git https://github.com/emqtt/emq-retainer master
-dep_emq_recon     = git https://github.com/emqtt/emq-recon master
-dep_emq_reloader  = git https://github.com/emqtt/emq-reloader master
+dep_emqttd        = git https://github.com/emqtt/emqttd v2.2.0
+dep_emq_modules   = git https://github.com/vleushin/emq-modules v2.2.0-kafka-protobuf
+dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard v2.2.0
+dep_emq_retainer  = git https://github.com/emqtt/emq-retainer v2.2.0
+dep_emq_recon     = git https://github.com/emqtt/emq-recon v2.2.0
+dep_emq_reloader  = git https://github.com/emqtt/emq-reloader v2.2.0
 
 # emq auth/acl plugins
-dep_emq_auth_clientid = git https://github.com/emqtt/emq-auth-clientid master
-dep_emq_auth_username = git https://github.com/emqtt/emq-auth-username master
-dep_emq_auth_ldap     = git https://github.com/emqtt/emq-auth-ldap master
-dep_emq_auth_http     = git https://github.com/emqtt/emq-auth-http master
-dep_emq_auth_mysql    = git https://github.com/emqtt/emq-auth-mysql master
-dep_emq_auth_pgsql    = git https://github.com/emqtt/emq-auth-pgsql master
-dep_emq_auth_redis    = git https://github.com/emqtt/emq-auth-redis master
-dep_emq_auth_mongo    = git https://github.com/emqtt/emq-auth-mongo master
+dep_emq_auth_clientid = git https://github.com/emqtt/emq-auth-clientid v2.2.0
+dep_emq_auth_username = git https://github.com/emqtt/emq-auth-username v2.2.0
+dep_emq_auth_ldap     = git https://github.com/emqtt/emq-auth-ldap v2.2.0
+dep_emq_auth_http     = git https://github.com/emqtt/emq-auth-http v2.2.0
+dep_emq_auth_mysql    = git https://github.com/vleushin/emq-auth-mysql v2.2.0-clientid
+dep_emq_auth_pgsql    = git https://github.com/emqtt/emq-auth-pgsql v2.2.0
+dep_emq_auth_redis    = git https://github.com/vleushin/emq-auth-redis v2.2.0-clientid
+dep_emq_auth_mongo    = git https://github.com/emqtt/emq-auth-mongo v2.2.0
 
 # mqtt-sn, coap and stomp
-dep_emq_sn    = git https://github.com/emqtt/emq-sn master
-dep_emq_coap  = git https://github.com/emqtt/emq-coap master
-dep_emq_stomp = git https://github.com/emqtt/emq-stomp master
+dep_emq_sn    = git https://github.com/emqtt/emq-sn v2.2.0
+dep_emq_coap  = git https://github.com/emqtt/emq-coap v2.2.0
+dep_emq_stomp = git https://github.com/emqtt/emq-stomp v2.2.0
 
 # plugin template
-dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template master
+dep_emq_plugin_template = git https://github.com/emqtt/emq-plugin-template v2.2.0
 
 # web_hook lua_hook
-dep_emq_web_hook  = git https://github.com/emqtt/emq-web-hook master
-dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook master
-dep_emq_elixir_plugin = git  https://github.com/emqtt/emq-elixir-plugin master
+dep_emq_web_hook  = git https://github.com/emqtt/emq-web-hook v2.2.0
+dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook v2.2.0
+dep_emq_elixir_plugin = git  https://github.com/emqtt/emq-elixir-plugin v2.2-beta.2
 
 # COVER = true
 
