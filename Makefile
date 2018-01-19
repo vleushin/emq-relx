@@ -14,7 +14,7 @@ DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
 
 # emq deps
 dep_emqttd        = git https://github.com/emqtt/emqttd v2.3.3
-dep_emq_modules   = git https://github.com/emqtt/emq-modules v2.3.3
+dep_emq_modules   = git https://github.com/vleushin/emq-modules v2.3.3-kafka-protobuf
 dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard v2.3.3
 dep_emq_retainer  = git https://github.com/emqtt/emq-retainer v2.3.3
 dep_emq_recon     = git https://github.com/emqtt/emq-recon v2.3.3
@@ -27,7 +27,7 @@ dep_emq_auth_ldap     = git https://github.com/emqtt/emq-auth-ldap v2.3.3
 dep_emq_auth_http     = git https://github.com/emqtt/emq-auth-http v2.3.3
 dep_emq_auth_mysql    = git https://github.com/emqtt/emq-auth-mysql v2.3.3
 dep_emq_auth_pgsql    = git https://github.com/emqtt/emq-auth-pgsql v2.3.3
-dep_emq_auth_redis    = git https://github.com/emqtt/emq-auth-redis v2.3.3
+dep_emq_auth_redis    = git https://github.com/vleushin/emq-auth-redis v2.3.3-clientid
 dep_emq_auth_mongo    = git https://github.com/emqtt/emq-auth-mongo v2.3.3
 dep_emq_auth_jwt      = git https://github.com/emqtt/emq-auth-jwt v2.3.3
 
